@@ -1,0 +1,163 @@
+/* Style of the About Page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    background-image: url(/LAB2/Assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #0d9ba8;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar title{
+    align-items: center;
+}
+/* Style the logo image */
+.navbar img {
+    height: 100px; /* Adjust the size (height) as needed */
+    width: auto; /* will scale accordingly */
+    border: none;
+    
+}
+
+.navbar img:hover{
+    border: none;
+    text-decoration: none;
+}
+
+/* Style the navigation menu */
+.navbar ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 20px;
+    margin-left: 50px;
+   
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white; /* Add a border to the links */
+    padding: 5px 10px; /* Add padding for better visual appearance */
+    border-radius: 0px; /* Optional: Add border-radius for rounded corners */
+}
+
+/* Style the links on hover */
+.navbar a:hover {
+    color: #050505; /* Change the color on hover */
+    border: 0px solid black; /* Add a border to the links */
+
+}
+
+/* PAGE TITLE */
+.pagetitle {
+    color: aliceblue;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.pagetitle span {
+    color: #2ca6a8;
+}
+
+.navbar a {
+    text-decoration: none;
+    border: none;
+  }
+
+.pagetitle2 {
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+    margin-top: -10px; /* Adjust this value as needed */
+    border-radius: 5px;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; /* Adjust padding as needed */
+    background-color: #358d90; /* Optional: Add background color to the rectangle */
+}
+
+header h2 {
+    width: 30%; /* Adjust width as needed */
+    border: 1px solid #041f20; /* Optional: Add border to the rectangle */
+    padding: 10px; /* Optional: Add padding to the rectangle */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center text */
+}
+
+header .text1 {
+    color: white;
+}
+
+header .text1 span {
+    color: rgb(5, 14, 69);
+}
+header .text2 {
+    color: white;
+}
+
+header .text2 span {
+    color: rgb(5, 14, 69);
+}
+
+header .text3 {
+    color: white;
+}
+
+header .text3 span {
+    color: rgb(5, 14, 69);
+}
+
+header .subtext1 {
+    margin-top: 100px;
+}
+header .subtext2 {
+    margin-top: 170px;
+}
+header .subtext3 {
+    margin-top: 67px;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+.footer {
+    
+    background-color: #176b7c1d;
+    color: rgb(255, 255, 255);
+    margin-top: auto
+    ;
+}
+
+.footer .author{
+    
+    align-items: center;
+    
+}

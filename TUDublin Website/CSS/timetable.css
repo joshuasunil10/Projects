@@ -1,0 +1,94 @@
+/* Style of the About Page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(/LAB2/Assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #0d9ba8;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the logo image */
+.navbar img {
+    height: 100px;
+    width: auto;
+    border: none;
+}
+
+.navbar img:hover {
+    border: none;
+}
+
+/* Style the navigation menu */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 20px;
+    margin-left: 50px;
+}
+
+.navbar .logo img {
+    text-decoration: none;
+    border-radius: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+/* Style the links on hover */
+.navbar a:hover {
+    color: #050505;
+    
+}
+
+/* PAGE TITLE */
+.pagetitle {
+    color: aliceblue;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+
+
+.table {
+    color: white;
+    /* Add any other styles you want for the table */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    border: none;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #176b7c1d;
+    color: #fff;
+    margin-top: auto;
+}
+
+.footer .author {
+    align-items: center;
+}
