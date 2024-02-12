@@ -1,0 +1,119 @@
+/* Style of the main HOME PAGE */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    background-image: url(Assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #0d9ba8;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar title{
+    align-items: center;
+}
+/* Style the logo image */
+.navbar img {
+    height: 100px; /* Adjust the size (height) as needed */
+    width: auto; /* will scale accordingly */
+    padding-left:30px;
+    
+}
+
+
+
+
+/* Style the navigation menu */
+.buttons ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.buttons li {
+    margin: 0 20px;
+    margin-left: 900px;
+    margin-bottom: 40px;
+    margin-right: 500px;
+    border: 1px solid white; /* Add a border to the links */
+    padding: px px; /* Add padding for better visual appearance */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */   
+}
+
+.buttons a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    border: 0px solid white; /* Add a border to the links */
+    padding: 5px 10px; /* Add padding for better visual appearance */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+
+/* Style the links on hover */
+.buttons a:hover {
+    color: #0a3c4c; /* Change the color on hover */
+    border: 1px solid black; /* Add a border to the links */
+    
+}
+
+/* PAGE TITLE */
+.pagetitle {
+    color: aliceblue;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.pagetitle span {
+    color: #2ca6a8;
+}
+
+.pagetitle2 {
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+    margin-top: -10px; /* Adjust this value as needed */
+}
+
+/* PAGE IMAGE*/
+
+.homeimg img{
+    
+    padding-left: 30px;
+    height: 500px;
+    width: auto;
+    
+    border: 1px solid rgb(77, 138, 148); /* Add a border to the links */
+    padding: 10px; /* Add padding for better visual appearance */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    margin-left: 30px;
+    margin-top: -380px;
+}
+
+
+/* Footer */
+.footer {
+    
+    background-color: #176b7c1d;
+    color: rgb(255, 255, 255);
+    margin-top: auto
+    ;
+}
+
+.footer .author{
+    
+    align-items: center;
+    
+}
